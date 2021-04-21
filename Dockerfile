@@ -1,8 +1,4 @@
-FROM ubuntu:20.04
+FROM alpine:3.13
 
-ENV DEBIAN_FRONTEND=noninteractive
-
-RUN apt update && \
-    apt install -y ant curl jq gradle npm
-    
-RUN npm install -g newman
+RUN apk update && \
+    apk add apache-ant curl jq gradle
