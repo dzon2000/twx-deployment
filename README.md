@@ -16,7 +16,8 @@ project
 ```
 
 ## Tools
-* ant 1.10.7
-* curl 7.68.0
-* jq 1.6
-* gradle 4.4.1
+* ant 1.10.9
+* curl 7.80.0
+* jq 3.15
+* gradle 7.2
+* OpenJDK 11
